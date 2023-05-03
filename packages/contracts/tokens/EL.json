@@ -3,6 +3,7 @@
   "small_number": 1000000000000000000,
   "erc20_chains": {
     "1": "0x2781246fe707bB15CeE3e5ea354e2154a2877B16",
-    "5": "0xBA62BCfcAaFc6622853cca2BE6Ac7d845BC0f2Dc"
+    "5": "0xBA62BCfcAaFc6622853cca2BE6Ac7d845BC0f2Dc",
+    "56": "0x5357e9c3488c7680e710b46b744e706e484b4ad7"
   }
 }
