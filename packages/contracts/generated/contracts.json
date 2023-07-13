@@ -261,6 +261,24 @@
                 "notes": null,
                 "arbitrators": {}
             }
+        },
+        "EL": {
+            "RealityETH_ERC20-3.0": {
+                "address": "0x472fAF2Ea9304F39d8e6Fc6E3F49F543ebbB833d",
+                "block": 27880485,
+                "token_address": "0x5357e9c3488c7680e710b46b744e706e484b4ad7",
+                "notes": null,
+                "arbitrators": {}
+            }
+        },
+        "ELFI": {
+            "RealityETH_ERC20-3.0": {
+                "address": "0x662c6Be147c723f96b5B17d6CD8e82eea20aD95f",
+                "block": 27307082,
+                "token_address": "0x6C619006043EaB742355395690c7b42d3411E8c0",
+                "notes": null,
+                "arbitrators": {}
+            }
         }
     },
     "69": {

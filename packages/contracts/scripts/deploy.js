@@ -18,7 +18,8 @@ const defaultConfigs = {
     // gasPrice: 10000, // optimism 1000000,
     /// gasPrice: 5000000000,
     // gasLimit: 6000000, // optimism 4500000
-    gasLimit: 4500000,
+    // gasLimit: 4500000,
+    gasLimit: 45000000, // klaytn
     //etherscanApiKey: 'TPA4BFDDIH8Q7YBQ4JMGN6WDDRRPAV6G34'
     // gasLimit: 155734867 // arbitrum
 }
@@ -52,6 +53,7 @@ const chains = {
     'kovan-optimistic': 69,
     'kintsugi': 1337702,
     'sepolia': 11155111,
+    "baobab": 1001,
 }
 const non_infura_chains = {
     'gnosis': 'https://rpc.ankr.com/gnosis',
@@ -69,6 +71,7 @@ const non_infura_chains = {
     'kintsugi': 'https://rpc.kintsugi.themerge.dev',
     'mumbai': 'https://matic-mumbai.chainstacklabs.com',
     'sepolia': 'https://rpc.sepolia.org',
+    'baobab': 'https://public-en-baobab.klaytn.net',
 }
 
 function constructContractTemplate(contract_name) {
@@ -127,7 +130,7 @@ if (arbitrator_owner == undef) {
     arbitrator_owner = "0xdd8a989e5e89ad23ed2f91c6f106aea678a1a3d0";
 }
 
-const priv = fs.readFileSync('/home/ed/secrets/' + chain + '.sec', 'utf8').replace(/\n/, '')
+const priv = fs.readFileSync('../../cli-tools/secrets/' + chain + '.sec', 'utf8').replace(/\n/, '')
 
 ensure_chain_directory_exists(chain_id, token_name);
 
