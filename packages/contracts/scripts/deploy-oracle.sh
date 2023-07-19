@@ -1,1 +1,1 @@
-node deploy.js RealityETH 3.0 "baobab" "ELFI" "0" "0x189027e3C77b3a92fd01bF7CC4E6a86E77F5034E"
+node deploy.js RealityETH 3.0 "cypress" "EL" "0" "0x45129A8fe7Dee4e6E16E738be673984DA684371F"

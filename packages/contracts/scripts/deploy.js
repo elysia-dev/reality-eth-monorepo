@@ -53,7 +53,8 @@ const chains = {
     'kovan-optimistic': 69,
     'kintsugi': 1337702,
     'sepolia': 11155111,
-    "baobab": 1001,
+    'baobab': 1001,
+    'cypress': 8217,
 }
 const non_infura_chains = {
     'gnosis': 'https://rpc.ankr.com/gnosis',
@@ -72,6 +73,7 @@ const non_infura_chains = {
     'mumbai': 'https://matic-mumbai.chainstacklabs.com',
     'sepolia': 'https://rpc.sepolia.org',
     'baobab': 'https://public-en-baobab.klaytn.net',
+    'cypress': 'https://public-en-cypress.klaytn.net',
 }
 
 function constructContractTemplate(contract_name) {
